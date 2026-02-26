@@ -1,4 +1,4 @@
-export default {
+efexport default {
   async fetch(request) {
     if (request.headers.get("Upgrade") !== "websocket") {
       return new Response("WebSocket server running", { status: 200 });
